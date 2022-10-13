@@ -9,6 +9,8 @@ declare(strict_types=1);
  * - Múltiplos de 3 por la palabra "fizz".
  * - Múltiplos de 5 por la palabra "buzz".
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
+ *
+ * Blog Post Link: https://desarrollowp.com/blog/tutoriales/reto-de-programacion-0-el-famoso-fizzbuzz/
  */
 function FizzBuzz()
 {
@@ -40,4 +42,5 @@ function isDivisibleBy3And5(int $number): bool
     return ($number % 3) == 0 && ($number % 5) == 0;
 }
 
+// Test
 FizzBuzz();
